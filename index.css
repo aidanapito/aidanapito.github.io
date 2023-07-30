@@ -434,12 +434,13 @@ li{
 
   .aidanvball {
     display: flex; 
-    margin-left: 24%;
-    transform: translateY(-400px);
-    width: 50%;
+    margin-left: 17%;
+    transform: translateY(-600px);
+    width: 71%;
     height: auto;
     z-index: -1;
   }
+
 
   #contact {
     font-size: 1em;
