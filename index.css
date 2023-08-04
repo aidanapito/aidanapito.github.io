@@ -3,7 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     color: rgb(80, 189, 204);
-    
+  
+  
   }
 
   html{
@@ -248,16 +249,13 @@ li{
 }
 
 .ContactImages{
-
+  display: flex;
   position: relative;
   overflow: hidden;
-  border-radius: 50% ;
-  z-index: 1;
   width: 300px;
   height: auto;
-  margin-left: 75%;
-  margin-top: -12%;
-
+  border-radius: 25%;
+  margin: 0 44.5%;
 }
 
 
@@ -340,6 +338,17 @@ li{
     transform: translateY(200px);
   
   }
+
+  .ContactImages{
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: auto;
+    border-radius: 25%;
+    margin: 0 42.5%;
+  }
+  
 
 }
 
