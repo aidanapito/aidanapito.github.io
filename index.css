@@ -356,7 +356,6 @@ li{
 
 
 
-
 @media screen and (max-width: 768px) {
 
   body{
@@ -444,12 +443,13 @@ li{
 
   .aidanvball {
     display: flex; 
-    margin-left: 15%;
-    transform: translateY(-75vh);
-    width: 70%;
+    margin-left: 17%;
+    transform: translateY(-600px);
+    width: 71%;
     height: auto;
     z-index: -1;
   }
+
 
   #contact {
     font-size: 1em;
@@ -537,8 +537,6 @@ li{
     position: none;
 
   }
-  
-
   
 
 }
