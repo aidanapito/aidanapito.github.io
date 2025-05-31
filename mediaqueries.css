@@ -4,6 +4,16 @@
       display: none;
     }
   
+
+    #profile .section__pic-container {
+      display: none;
+    }
+    
+    .about-pic {
+      max-width: 200px;
+      height: auto;
+    }
+    
     #hamburger-nav {
       display: flex;
       justify-content: space-between;
