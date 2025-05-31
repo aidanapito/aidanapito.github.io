@@ -1,0 +1,68 @@
+/* Phones and smaller tablets */
+@media screen and (max-width: 768px) {
+    nav {
+      display: none;
+    }
+  
+    #hamburger-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+    }
+  
+    section {
+      margin: 0 1rem;
+      height: auto;
+    }
+  
+    .section__pic-container,
+    .section-container {
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+    }
+  
+    .section__pic-container {
+      width: 100%;
+      height: auto;
+      max-width: 300px;
+      margin-bottom: 2rem;
+    }
+  
+    .section__text {
+      text-align: center;
+      padding: 0 1rem;
+    }
+  
+    .about-containers,
+    .experience-details-container,
+    .article-container,
+    .contact-info-upper-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .details-container {
+      width: 90%;
+      margin-bottom: 2rem;
+    }
+  
+    .btn-container {
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+    }
+  
+    .btn {
+      width: 80%;
+      margin-bottom: 1rem;
+    }
+  
+    footer {
+      height: auto;
+      padding: 1rem;
+    }
+  }
+  
