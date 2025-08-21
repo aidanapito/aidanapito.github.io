@@ -490,11 +490,14 @@ section {
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
   max-width: 100%;
+  align-items: stretch;
 }
 
 #projects .color-container {
   margin-bottom: 0;
-  height: fit-content;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .project-title {
@@ -502,6 +505,10 @@ section {
   font-size: 1.8rem;
   margin-bottom: 1.5rem;
   font-weight: 700;
+}
+
+#projects .color-container .btn-container {
+  margin-top: auto;
 }
 
 .project-description {
