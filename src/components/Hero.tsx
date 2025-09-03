@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Github, Linkedin, Mail, Globe, Download } from "lucide-react";
+import { Github, Linkedin, Mail, Download } from "lucide-react";
 import cosmicHeroBg from "@/assets/cosmic-hero-bg.jpg";
 
 const Hero = () => {
@@ -52,10 +52,6 @@ const Hero = () => {
             <Button variant="ghost" size="icon" className="hover:glow-primary" onClick={() => window.open('https://www.linkedin.com/in/aidanapito/', '_blank')}>
               <Linkedin className="h-6 w-6" />
               <span className="sr-only">LinkedIn</span>
-            </Button>
-            <Button variant="ghost" size="icon" className="hover:glow-primary">
-              <Globe className="h-6 w-6" />
-              <span className="sr-only">Portfolio Website</span>
             </Button>
           </div>
         </div>
