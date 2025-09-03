@@ -28,17 +28,17 @@ const Hero = () => {
             Computer Science Student & Software Developer
           </p>
           
-          <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
+          <p className="text-lg text-foreground mb-8 max-w-2xl mx-auto font-medium">
             Passionate about AI, machine learning, and creating innovative solutions. 
             Currently pursuing CS at Rutgers University Newark with a minor in Data Science.
           </p>
           
           <div className="flex flex-wrap justify-center gap-4 mb-8">
-            <Button variant="default" size="lg" className="glow-primary animate-pulse-glow">
+            <Button variant="default" size="lg" className="glow-primary animate-pulse-glow" onClick={() => window.open('mailto:aidan2apito@gmail.com', '_blank')}>
               <Mail className="mr-2 h-5 w-5" />
               aidan2apito@gmail.com
             </Button>
-            <Button variant="outline" size="lg" className="hover:glow-accent" onClick={() => window.open('/src/assets/AidanApitoSeptemberResume.pdf', '_blank')}>
+            <Button variant="outline" size="lg" className="hover:glow-accent" onClick={() => window.open('/AidanApitoSeptemberResume.pdf', '_blank')}>
               <Download className="mr-2 h-5 w-5" />
               Download Resume
             </Button>
