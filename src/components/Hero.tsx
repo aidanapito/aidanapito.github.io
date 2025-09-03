@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Github, Linkedin, Mail, Phone, Globe } from "lucide-react";
+import { Github, Linkedin, Mail, Globe } from "lucide-react";
 import cosmicHeroBg from "@/assets/cosmic-hero-bg.jpg";
 
 const Hero = () => {
@@ -38,18 +38,14 @@ const Hero = () => {
               <Mail className="mr-2 h-5 w-5" />
               aidan2apito@gmail.com
             </Button>
-            <Button variant="outline" size="lg" className="hover:glow-accent">
-              <Phone className="mr-2 h-5 w-5" />
-              973-907-3265
-            </Button>
           </div>
           
           <div className="flex justify-center gap-4">
-            <Button variant="ghost" size="icon" className="hover:glow-primary">
+            <Button variant="ghost" size="icon" className="hover:glow-primary" onClick={() => window.open('https://github.com/aidanapito', '_blank')}>
               <Github className="h-6 w-6" />
               <span className="sr-only">GitHub</span>
             </Button>
-            <Button variant="ghost" size="icon" className="hover:glow-primary">
+            <Button variant="ghost" size="icon" className="hover:glow-primary" onClick={() => window.open('https://www.linkedin.com/in/aidanapito/', '_blank')}>
               <Linkedin className="h-6 w-6" />
               <span className="sr-only">LinkedIn</span>
             </Button>

@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Mail, Phone, Github, Linkedin, Globe, Send } from "lucide-react";
+import { Mail, Github, Linkedin, Send } from "lucide-react";
 
 const Contact = () => {
   const contactMethods = [
@@ -12,32 +12,18 @@ const Contact = () => {
       description: "Best way to reach me for opportunities"
     },
     {
-      icon: Phone,
-      label: "Phone",
-      value: "973-907-3265", 
-      href: "tel:+19739073265",
-      description: "Available for calls and meetings"
-    },
-    {
       icon: Github,
       label: "GitHub",
       value: "github.com/aidanapito",
-      href: "https://github.com",
+      href: "https://github.com/aidanapito",
       description: "Check out my latest projects and code"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
       value: "linkedin.com/in/aidanapito",
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/aidanapito/",
       description: "Let's connect professionally"
-    },
-    {
-      icon: Globe,
-      label: "Portfolio Website",
-      value: "aidanapito.com",
-      href: "#",
-      description: "Explore more of my work"
     }
   ];
 
@@ -104,7 +90,7 @@ const Contact = () => {
                     <Mail className="mr-2 h-5 w-5" />
                     Get In Touch
                   </Button>
-                  <Button variant="outline" size="lg" className="hover:glow-accent">
+                  <Button variant="outline" size="lg" className="hover:glow-accent" onClick={() => window.open('https://github.com/aidanapito', '_blank')}>
                     <Github className="mr-2 h-5 w-5" />
                     View My Work
                   </Button>

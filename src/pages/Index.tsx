@@ -23,7 +23,7 @@ const Index = () => {
       <footer className="py-8 px-4 border-t border-border/50 bg-background/20 backdrop-blur-sm">
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-muted-foreground">
-            © 2024 Aidan Apito. Crafted with passion for innovation and excellence.
+            © 2025 Aidan Apito. Crafted with passion for innovation and excellence.
           </p>
         </div>
       </footer>

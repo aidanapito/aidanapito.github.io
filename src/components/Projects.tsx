@@ -16,7 +16,7 @@ const Projects = () => {
         "Delivered smooth autonomous flight characteristics"
       ],
       technologies: ["C++", "OpenGL", "Python", "NumPy", "A* Algorithm"],
-      githubLink: "https://github.com",
+      githubLink: "https://github.com/aidanapito/DronePathfindingAI",
       type: "Simulation"
     },
     {
@@ -30,7 +30,7 @@ const Projects = () => {
         "20% boost in recommendation accuracy with Core ML"
       ],
       technologies: ["SwiftUI", "Core ML", "Firebase", "WeatherAPI", "AI/ML"],
-      appStoreLink: "https://apps.apple.com",
+      appStoreLink: "https://apps.apple.com/us/app/restyled/id6751082870",
       type: "Mobile App"
     },
     {
@@ -44,7 +44,7 @@ const Projects = () => {
         "Optimized performance with analysis features"
       ],
       technologies: ["Python", "Web Scraping", "Data Analysis", "Testing"],
-      githubLink: "https://github.com",
+      githubLink: "https://github.com/aidanapito/parser",
       type: "Data Analytics"
     }
   ];
@@ -113,13 +113,13 @@ const Projects = () => {
               {/* Project Links */}
               <div className="flex gap-2 pt-4 border-t border-border">
                 {project.githubLink && (
-                  <Button variant="ghost" size="sm" className="flex-1">
+                  <Button variant="ghost" size="sm" className="flex-1" onClick={() => window.open(project.githubLink, '_blank')}>
                     <Github className="mr-2 h-4 w-4" />
                     Code
                   </Button>
                 )}
                 {project.appStoreLink && (
-                  <Button variant="ghost" size="sm" className="flex-1">
+                  <Button variant="ghost" size="sm" className="flex-1" onClick={() => window.open(project.appStoreLink, '_blank')}>
                     <ExternalLink className="mr-2 h-4 w-4" />
                     App Store
                   </Button>
