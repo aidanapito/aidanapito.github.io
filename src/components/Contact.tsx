@@ -80,8 +80,8 @@ const Contact = () => {
                   Ready to Build Something Amazing?
                 </h3>
                 <p className="text-muted-foreground leading-relaxed mb-6">
-                  I'm currently open to internship opportunities, full-time positions starting after 
-                  my graduation in May 2025, and exciting project collaborations. Let's create something 
+                  I'm currently looking for entry-level software development opportunities, 
+                  full-time positions, and exciting project collaborations. Let's create something 
                   extraordinary together.
                 </p>
                 

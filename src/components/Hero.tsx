@@ -25,12 +25,12 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-foreground mb-4">
-            Computer Science Student & Software Developer
+            Software Developer
           </p>
           
           <p className="text-lg text-foreground mb-8 max-w-2xl mx-auto font-medium">
             Passionate about AI, machine learning, and creating innovative solutions. 
-            Currently pursuing CS at Rutgers University Newark with a minor in Data Science.
+            Graduated from Rutgers University Newark with a minor in Data Science.
           </p>
           
           <div className="flex flex-wrap justify-center gap-4 mb-8">

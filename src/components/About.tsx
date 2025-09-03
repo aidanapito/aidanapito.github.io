@@ -27,7 +27,7 @@ const About = () => {
             <span className="nebula-text">About Me</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            I'm a dedicated Computer Science student with a passion for innovation, 
+            I'm a dedicated Software Developer with a passion for innovation, 
             combining technical expertise with leadership experience to create impactful solutions.
           </p>
         </div>
@@ -58,7 +58,7 @@ const About = () => {
                 </h4>
                 <p className="text-muted-foreground">Newark, New Jersey</p>
                 <p className="text-primary font-medium">Bachelor's in Computer Science</p>
-                <p className="text-sm text-muted-foreground">Minor: Data Science • Expected May 2025</p>
+                <p className="text-sm text-muted-foreground">Minor: Data Science • May 2025</p>
               </div>
             </div>
           </Card>
