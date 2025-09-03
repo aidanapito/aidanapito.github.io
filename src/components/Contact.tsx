@@ -86,7 +86,7 @@ const Contact = () => {
                 </p>
                 
                 <div className="flex flex-wrap justify-center gap-4">
-                  <Button size="lg" className="glow-primary animate-pulse-glow">
+                  <Button size="lg" className="glow-primary animate-pulse-glow" onClick={() => window.open('mailto:aidan2apito@gmail.com', '_blank')}>
                     <Mail className="mr-2 h-5 w-5" />
                     Get In Touch
                   </Button>
