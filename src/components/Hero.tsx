@@ -24,7 +24,7 @@ const Hero = () => {
             <span className="nebula-text">Aidan Apito</span>
           </h1>
           
-          <p className="text-xl md:text-2xl text-muted-foreground mb-4">
+          <p className="text-xl md:text-2xl text-foreground mb-4">
             Computer Science Student & Software Developer
           </p>
           
