@@ -38,7 +38,7 @@ const Hero = () => {
               <Mail className="mr-2 h-5 w-5" />
               aidan2apito@gmail.com
             </Button>
-            <Button variant="outline" size="lg" className="hover:glow-accent" onClick={() => window.open('/AidanApitoSeptemberResume.pdf', '_blank')}>
+            <Button variant="outline" size="lg" className="hover:glow-accent" onClick={() => window.open('/AidanApitoResumeSeptember2025.pdf', '_blank')}>
               <Download className="mr-2 h-5 w-5" />
               Download Resume
             </Button>
