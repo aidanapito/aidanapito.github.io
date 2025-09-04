@@ -25,7 +25,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-foreground mb-4">
-            Software Developer
+            Software Engineer
           </p>
           
           <p className="text-lg text-foreground mb-8 max-w-2xl mx-auto font-medium">

@@ -7,7 +7,7 @@ const About = () => {
     { icon: GraduationCap, label: "Education", value: "CS @ Rutgers Newark", desc: "Minor in Data Science" },
     { icon: Award, label: "Achievement", value: "All-Academic Team", desc: "Excellence in academics & athletics" },
     { icon: Users, label: "Leadership", value: "Volleyball Captain", desc: "Nationally ranked team" },
-    { icon: Code, label: "Experience", value: "2+ Years", desc: "Software development" }
+    { icon: Code, label: "Experience", value: "2+ Years", desc: "Software Engineering" }
   ];
 
   const coursework = [
@@ -27,7 +27,7 @@ const About = () => {
             <span className="nebula-text">About Me</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            I'm a dedicated Software Developer with a passion for innovation, 
+            I'm a dedicated Software Engineer with a passion for innovation, 
             combining technical expertise with leadership experience to create impactful solutions.
           </p>
         </div>
