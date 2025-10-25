@@ -7,13 +7,13 @@ const Skills = () => {
     {
       title: "Programming Languages",
       icon: Code,
-      skills: ["Python", "R", "Swift", "C++", "JavaScript", "C", "HTML/CSS", "SQL", "Java"],
+      skills: ["Python", "R", "Swift", "C++", "C#", "JavaScript", "C", "HTML/CSS", "SQL", "Java"],
       color: "text-blue-400"
     },
     {
       title: "Frameworks & Libraries",
       icon: Wrench,
-      skills: ["Flask", "SwiftUI", "Core ML", "OpenGL", "NumPy", "Jupyter"],
+      skills: ["Flask", "SwiftUI", "Core ML", "OpenGL", "NumPy", "Jupyter", ".NET", "WinForms"],
       color: "text-green-400"
     },
     {
@@ -31,7 +31,7 @@ const Skills = () => {
     {
       title: "Databases & Systems",
       icon: Database,
-      skills: ["SQL", "Firebase", "Asset Management", "Network Systems"],
+      skills: ["SQL", "SQL Server", "Firebase", "Asset Management", "Network Systems"],
       color: "text-orange-400"
     },
     {

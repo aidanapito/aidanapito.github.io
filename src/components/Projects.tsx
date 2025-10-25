@@ -6,18 +6,18 @@ import { Github, ExternalLink, Zap, Smartphone, BarChart3 } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "Drone Avoidance Simulator",
-      description: "Architected a real-time 3D drone simulator for autonomous navigation with C++/OpenGL and Python/NumPy. Implemented an optimized A* algorithm for 3D waypointing and dynamic obstacle avoidance.",
-      period: "August 2025 - September 2025",
+      title: "C# Quote Management System",
+      description: "Developed a comprehensive quote management system using C# and SQL Server for streamlined business operations. Implemented efficient data management and reporting capabilities.",
+      period: "September 2025 - Present",
       icon: Zap,
       achievements: [
-        "Built real-time 3D simulation with C++/OpenGL",
-        "Optimized A* algorithm for 3D navigation",
-        "Delivered smooth autonomous flight characteristics"
+        "Built robust C# application with SQL Server integration",
+        "Implemented efficient data management and reporting",
+        "Delivered scalable business solution"
       ],
-      technologies: ["C++", "OpenGL", "Python", "NumPy", "A* Algorithm"],
-      githubLink: "https://github.com/aidanapito/DronePathfindingAI",
-      type: "Simulation"
+      technologies: ["C#", "SQL Server", ".NET", "Database Design", "WinForms"],
+      githubLink: "https://github.com/aidanapito",
+      type: "Business Application"
     },
     {
       title: "Restyled",
