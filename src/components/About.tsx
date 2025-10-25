@@ -4,7 +4,7 @@ import { GraduationCap, Award, Users, Code } from "lucide-react";
 
 const About = () => {
   const stats = [
-    { icon: GraduationCap, label: "Education", value: "CS @ Rutgers Newark", desc: "Minor in Data Science" },
+    { icon: GraduationCap, label: "Education", value: "Computer Science @ Rutgers Newark", desc: "Minor in Data Science" },
     { icon: Award, label: "Achievement", value: "All-Academic Team", desc: "Excellence in academics & athletics" },
     { icon: Users, label: "Leadership", value: "Volleyball Captain", desc: "Nationally ranked team" },
     { icon: Code, label: "Experience", value: "2+ Years", desc: "Software Engineering" }
