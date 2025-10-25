@@ -13,7 +13,7 @@ const Skills = () => {
     {
       title: "Frameworks & Libraries",
       icon: Wrench,
-      skills: ["Flask", "SwiftUI", "Core ML", "OpenGL", "NumPy", "Jupyter", ".NET", "WinForms"],
+      skills: ["Flask", "SwiftUI", "Core ML", "OpenGL", "NumPy", "Jupyter", ".NET", "ASP.NET Core", "Entity Framework"],
       color: "text-green-400"
     },
     {

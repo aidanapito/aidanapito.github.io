@@ -7,16 +7,16 @@ const Projects = () => {
   const projects = [
     {
       title: "C# Quote Management System",
-      description: "Developed a comprehensive quote management system using C# and SQL Server for streamlined business operations. Implemented efficient data management and reporting capabilities.",
-      period: "September 2025 - Present",
+      description: "Developed a comprehensive quote management system using C# and Entity Framework for streamlined business operations. Implemented efficient data management and reporting capabilities with ASP.NET Core.",
+      period: "September 2025 - October 2025",
       icon: Zap,
       achievements: [
-        "Built robust C# application with SQL Server integration",
+        "Built robust ASP.NET Core application with Entity Framework",
         "Implemented efficient data management and reporting",
-        "Delivered scalable business solution"
+        "Delivered scalable business solution with modern web technologies"
       ],
-      technologies: ["C#", "SQL Server", ".NET", "Database Design", "WinForms"],
-      githubLink: "https://github.com/aidanapito",
+      technologies: ["C#", "Entity Framework", "ASP.NET Core", "SQL Server", "HTML/CSS"],
+      githubLink: "https://github.com/aidanapito/QuoteManagementSystem",
       type: "Business Application"
     },
     {
