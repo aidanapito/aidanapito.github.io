@@ -5,40 +5,22 @@ import { Code, Database, Smartphone, Cloud, Brain, Wrench } from "lucide-react";
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Programming Languages",
+      title: "Languages",
       icon: Code,
-      skills: ["Python", "R", "Swift", "C++", "C#", "JavaScript", "C", "HTML/CSS", "SQL", "Java"],
+      skills: ["Python", "R", "C#", "TypeScript", "Swift", "C++", "JavaScript", "C", "HTML/CSS", "SQL"],
       color: "text-blue-400"
     },
     {
-      title: "Frameworks & Libraries",
+      title: "Frameworks",
       icon: Wrench,
-      skills: ["Flask", "SwiftUI", "Core ML", "OpenGL", "NumPy", "Jupyter", ".NET", "ASP.NET Core", "Entity Framework"],
+      skills: ["Flask", "Next.js", "PyTorch", "PySpark", "Scikit-learn", "Prisma", "SwiftUI", "Selenium", "Playwright"],
       color: "text-green-400"
     },
     {
-      title: "AI & Machine Learning",
-      icon: Brain,
-      skills: ["Machine Learning", "OpenAI API", "Core ML", "Data Science", "AI Integration"],
-      color: "text-purple-400"
-    },
-    {
-      title: "Tools & Platforms",
+      title: "Tools & Technologies",
       icon: Cloud,
-      skills: ["Docker", "Firebase", "Git", "Xcode", "Linux", "WeatherAPI"],
+      skills: ["Docker", "Firebase", "Git", "Xcode", "Linux", "Jupyter", "NLP", "RAG", "Prompt Engineering", "REST APIs", "Web Scraping"],
       color: "text-cyan-400"
-    },
-    {
-      title: "Databases & Systems",
-      icon: Database,
-      skills: ["SQL", "SQL Server", "Firebase", "Asset Management", "Network Systems"],
-      color: "text-orange-400"
-    },
-    {
-      title: "Mobile & Web",
-      icon: Smartphone,
-      skills: ["SwiftUI", "Web Scraping", "Flask", "JavaScript", "HTML/CSS"],
-      color: "text-pink-400"
     }
   ];
 

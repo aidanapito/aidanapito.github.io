@@ -11,10 +11,8 @@ const Leadership = () => {
       period: "November 2021 – April 2025",
       icon: Trophy,
       achievements: [
-        "Guided a 15‑member squad to national ranking",
-        "Mentored incoming athletes and facilitated team integration", 
-        "Recognized as a member of the Rutgers University–Newark All-Academic Team",
-        "Balanced high academic performance with athletics and leadership responsibilities"
+        "Guided a 15‑member squad to national ranking and mentored incoming athletes",
+        "Recognized as a member of the Rutgers University–Newark All-Academic Team for maintaining high academic performance while balancing the demands of athletics and leadership responsibilities"
       ],
       highlights: ["National Ranking", "All-Academic Team", "4+ Years Leadership"]
     },
@@ -25,10 +23,7 @@ const Leadership = () => {
       period: "September 2023 – May 2025",
       icon: Users,
       achievements: [
-        "Advocated for athlete welfare and student-athlete rights",
-        "Organized 5+ wellness and networking events",
-        "Engaged 200+ student athletes across various sports",
-        "Contributed to policy discussions affecting student-athlete experience"
+        "Advocated for athlete well-being; organized 5+ wellness and networking events engaging 200+ student athletes"
       ],
       highlights: ["200+ Athletes Engaged", "5+ Events Organized", "Advocacy Role"]
     }

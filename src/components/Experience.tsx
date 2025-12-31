@@ -10,8 +10,8 @@ const Experience = () => {
       location: "Totowa, New Jersey",
       period: "June 2025 – July 2025",
       achievements: [
-        "Reduced manual data entry by 95% by automating extraction of 10,000+ client records with a Python web scraper and consolidating the data into a centralized repository.",
-        "Decreased support backlog by 60% by engineering and deploying an AI-powered HR chatbot (OpenAI API + Flask) integrated into Slack, automating 60+ employee inquiries monthly."
+        "Reduced manual data entry by automating extraction of 10,000+ client records with a Python web scraper and consolidating the data into a centralized repository.",
+        "Decreased support backlog by 60% by building and deploying an AI-powered HR chatbot (OpenAI API + Flask) integrated into Slack, automating 60+ employee inquiries monthly."
       ],
       skills: ["Python", "OpenAI API", "Flask", "Slack Integration", "Web Scraping"]
     },
@@ -21,9 +21,9 @@ const Experience = () => {
       location: "Livingston, New Jersey",
       period: "June 2022 – January 2023",
       achievements: [
-        "Reduced audit preparation time by 50% and boosted inventory accuracy by 35% by engineering a SQL-based asset management system logging and tracking 200+ equipment assets.",
+        "Reduced IT audit preparation time by 50% and boosted inventory accuracy by 35% by developing a SQL-based asset management system logging and tracking 200+ equipment assets.",
         "Shortened compliance audit duration by 30% by automating discovery and classification of 500+ endpoints with Lansweeper (network discovery software) and generating real-time reports and dashboards.",
-        "Maintained 95% end-user satisfaction by triaging and resolving 60+ monthly IT support tickets via the Helpdesk portal, addressing hardware and software issues."
+        "Provided technical support resolving 60+ monthly hardware and software issues through Helpdesk ticketing system."
       ],
       skills: ["SQL", "Lansweeper", "Asset Management", "IT Support", "Compliance"]
     }

@@ -1,49 +1,49 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Github, ExternalLink, Zap, Smartphone, BarChart3 } from "lucide-react";
+import { Github, ExternalLink, Brain, Smartphone, BarChart3 } from "lucide-react";
 
 const Projects = () => {
   const projects = [
     {
-      title: "C# Quote Management System",
-      description: "Developed a comprehensive quote management system using C# and Entity Framework for streamlined business operations. Implemented efficient data management and reporting capabilities with ASP.NET Core.",
-      period: "September 2025 - October 2025",
-      icon: Zap,
+      title: "NHL Fantasy Hockey Helper",
+      description: "Engineered a full-stack TypeScript application (Next.js, Prisma) that aggregates NHL player statistics and fantasy league data via REST APIs and web scraping (Selenium/Playwright), enabling real-time trade analysis and player valuations.",
+      period: "November 2025 – Present",
+      icon: Brain,
       achievements: [
-        "Built robust ASP.NET Core application with Entity Framework",
-        "Implemented efficient data management and reporting",
-        "Delivered scalable business solution with modern web technologies"
+        "Built full-stack TypeScript application with Next.js and Prisma",
+        "Integrated PyTorch multi-task neural networks for player performance forecasting",
+        "Implemented batch inference pipelines for week-ahead matchup projections and trade recommendations"
       ],
-      technologies: ["C#", "Entity Framework", "ASP.NET Core", "SQL Server", "HTML/CSS"],
-      githubLink: "https://github.com/aidanapito/QuoteManagementSystem",
-      type: "Business Application"
+      technologies: ["TypeScript", "Next.js", "Prisma", "PyTorch", "Selenium", "Playwright", "REST APIs", "Web Scraping"],
+      githubLink: "https://github.com/aidanapito/NHLFantasyHockeyTool",
+      type: "Full-Stack AI Application"
     },
     {
       title: "Restyled",
-      description: "Developed and launched a SwiftUI wardrobe visualization app with real-time outfit previews. Integrated AI-powered background removal and weather-aware Core ML recommendation system.",
-      period: "June 2025 - August 2025",
+      description: "Developed and launched a SwiftUI wardrobe visualization app with real-time outfit previews. Integrated an AI-powered background-removal feature and engineered a weather-aware Core ML collaborative filtering model.",
+      period: "June 2025 – August 2025",
       icon: Smartphone,
       achievements: [
         "Launched on App Store with SwiftUI",
-        "AI-powered background removal integration",
-        "20% boost in recommendation accuracy with Core ML"
+        "Integrated AI-powered background-removal feature for clean garment images",
+        "Engineered weather-aware Core ML model with Firebase serverless feedback pipeline, boosting recommendation accuracy by 20%"
       ],
-      technologies: ["SwiftUI", "Core ML", "Firebase", "WeatherAPI", "AI/ML"],
+      technologies: ["SwiftUI", "Core ML", "Firebase", "AI/ML", "Serverless"],
       appStoreLink: "https://apps.apple.com/us/app/restyled/id6751082870",
       type: "Mobile App"
     },
     {
       title: "NCAA Volleyball Stat Scraper",
-      description: "Built and maintained a Python pipeline that parsed stats for every NCAA men's volleyball team across 3 seasons. Achieved 100% extraction accuracy through rigorous testing and optimization.",
-      period: "November 2023 - May 2025",
+      description: "Built a Python pipeline that extracted, cleaned, and validated 15,000+ individual player statistics across 100+ NCAA men's volleyball teams over 3 seasons, enabling reliable exploratory data analysis.",
+      period: "November 2023 – May 2025",
       icon: BarChart3,
       achievements: [
-        "Scraped 3 seasons of NCAA volleyball data",
-        "Achieved 100% extraction accuracy",
-        "Optimized performance with analysis features"
+        "Extracted 15,000+ player statistics across 100+ teams",
+        "Processed 3 seasons of NCAA volleyball data",
+        "Enabled reliable exploratory data analysis through data validation"
       ],
-      technologies: ["Python", "Web Scraping", "Data Analysis", "Testing"],
+      technologies: ["Python", "Web Scraping", "Data Analysis", "Data Validation"],
       githubLink: "https://github.com/aidanapito/parser",
       type: "Data Analytics"
     }
