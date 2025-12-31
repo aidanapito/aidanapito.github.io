@@ -16,8 +16,8 @@ export default defineConfig(({ mode }) => ({
   base: '/',
   plugins: [
     react(),
-    mode === 'development' &&
-    componentTagger(),
+    // Temporarily disabled componentTagger due to conflicts with 3D JSX components
+    // mode === 'development' && componentTagger(),
   ].filter(Boolean),
   resolve: {
     alias: {

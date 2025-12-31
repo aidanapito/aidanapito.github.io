@@ -3,6 +3,7 @@ import { Github, Linkedin, Mail, Download } from "lucide-react";
 import cosmicHeroBg from "@/assets/cosmic-hero-bg.jpg";
 
 const Hero = () => {
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Cosmic Background */}
