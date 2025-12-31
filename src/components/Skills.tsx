@@ -29,7 +29,7 @@ const Skills = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            <span className="nebula-text">Technical Constellation</span>
+            <span className="nebula-text">Technical Skills</span>
           </h2>
           <p className="text-xl text-muted-foreground">
             A diverse skill set spanning multiple domains of software development
